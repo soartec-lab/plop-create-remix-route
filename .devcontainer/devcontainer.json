@@ -1,5 +1,5 @@
 {
-  "name": "remix-go-spa",
+  "name": "plop-create-remix-route",
   "postCreateCommand": "bash ./.devcontainer/post-create.sh",
   "dockerComposeFile": [
     "../compose.yml",
