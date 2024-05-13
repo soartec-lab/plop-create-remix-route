@@ -4,7 +4,8 @@
   "description": "remix route/feature component generator by `plop`",
   "main": "dist/index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
