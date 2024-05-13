@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/soartec-lab/plop-create-remix-route/issues"
   },
-  "homepage": "https://github.com/soartec-lab/plop-create-remix-route#readme"
+  "homepage": "https://github.com/soartec-lab/plop-create-remix-route#readme",
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
 }
