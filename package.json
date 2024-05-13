@@ -28,5 +28,8 @@
   "homepage": "https://github.com/soartec-lab/plop-create-remix-route#readme",
   "devDependencies": {
     "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "plop": "^4.0.1"
   }
 }
