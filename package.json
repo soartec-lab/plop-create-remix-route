@@ -7,7 +7,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "test",
-    "build": "tsc",
+    "build": "rm -rf dist && tsc && cp -r src/templates dist/templates",
     "release": "npm publish --access public"
   },
   "repository": {
