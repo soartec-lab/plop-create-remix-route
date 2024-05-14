@@ -2,6 +2,7 @@
   "name": "@soartec-lab/plop-create-remix-route",
   "version": "0.1.0",
   "description": "remix route/feature component generator by `plop`",
+  "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
