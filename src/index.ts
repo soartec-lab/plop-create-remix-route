@@ -95,7 +95,7 @@ ex)
       switch (data["component-type"]) {
         case "url-route": {
           plop.setHelper("route-component", (text) => {
-            const paths = text.split("/");
+            const paths = text.split("/").filter(Boolean);
 
             const componentName = paths
               .map((
@@ -109,7 +109,7 @@ ex)
             return `${componentName}-route`;
           });
 
-          const urlPaths = data["route-path"].split("/");
+          const urlPaths = data["route-path"].split("/").filter(Boolean);
           const endPath = urlPaths.at(-1);
 
           let routeFilePath = urlPaths.map((path: string) => path.replace(":", "$"));
