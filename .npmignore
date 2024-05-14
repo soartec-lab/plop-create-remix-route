@@ -1,0 +1,8 @@
+/.devcontainer
+/node_modules
+/src
+tsconfig.json
+Dockefile
+compose.yml
+.gitignore
+plopfile.js
